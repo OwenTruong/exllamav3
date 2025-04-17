@@ -1,0 +1,5 @@
+FROM exllamav3-mid
+
+WORKDIR /app
+
+ENTRYPOINT ["tail", "-f", "/dev/null"]

@@ -69,6 +69,7 @@ convert.py -h
 The working directory is temporary storage for state checkpoints and for storing quantized tensors until the converted model can be compiled. It should have enough free space to store an entire copy of the output model. Note that while EXL2 conversion by default resumes an interrupted job when pointed to an existing folder, EXL3 needs you to explicitly resume with the `-r`/`--resume` argument.    
 
 See [here](doc/convert.md) for more information.
+See [here](doc/docker_convert.md) to run convert.py with docker.
 
 ### Examples
 

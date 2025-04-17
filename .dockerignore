@@ -1,0 +1,9 @@
+.github
+build
+doc
+docker
+exllamav3.egg-info
+venv
+.gitignore
+LICENSE
+README.md
