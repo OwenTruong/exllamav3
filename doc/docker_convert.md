@@ -69,6 +69,7 @@ Example:
 ```bash
 docker create \
   --name exl3-container \
+  --runtime=nvidia \
   --gpus all \
   -v /mnt/llm:/mnt/llm \
   exllamav3
@@ -80,6 +81,7 @@ Note, if you need a separate path for cache (i.e. work directory), add another p
 ```bash
 docker create \
   --name exl3-container \
+  --runtime=nvidia \
   --gpus all \
   -v /path/to/host/dir:/path/to/container/dir \
   -v /path/to/host/cache/dir:/path/to/container/cache/dir \
